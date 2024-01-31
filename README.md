@@ -30,7 +30,7 @@
         - Larger FSM <br> _In theory, applicable to any FSM, but overly complex for small FSMs_
             - State pattern, i.e. each state defined as a class <br> $\implies$ _modularity, i.e. states are handled independently_
             - State behaviour & transition handled as methods in class
-    - `FSM.enhance`: Enhancements for FSM
+    - `FSM.extend`: Enhancements for FSM
         - Hierarchical FSM
             - State class contains or may contain FSMs
             - _Facilitates implementation of higher & lower level decision-making_
@@ -90,6 +90,11 @@ Finite state machines may be harder to scale due to lack of reusability of behav
     - `BT.NodeExec`: Node execution methods
         - Root traversal
         - Node schedular
+    - `BT.extend`: Extensions of BT
+        - Concurrent behaviours
+        - Tree parameters
+        - Blackboard
+        - Event-based trees (_how does it enable reactive behaviour?_)
 
 \* _The "some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised, i.e. non-deterministic_
 
