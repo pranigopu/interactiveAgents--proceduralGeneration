@@ -91,6 +91,6 @@ Finite state machines may be harder to scale due to lack of reusability of behav
         - Root traversal
         - Node schedular
 
-\* _The "some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised._
+\* _The "some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised, i.e. non-deterministic_
 
 **NOTE: Why best catch "failures" in action nodes with conditions?**: <br> A failed action indicates that the agent knowledge of the world is insufficient, since it tried to do an illegal action. This indicates the need to test the properties of the game world further, thus the need to catch "failures" in action nodes with conditions.
