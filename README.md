@@ -57,7 +57,7 @@ Finite state machines may be harder to scale due to lack of reusability of behav
             - Selector node
             - Sequence node
             - Composite node
-            - Decorator node (discussed later)
+            - Decorator node
     - `BT.NodeEval`: Evaluating nodes <br> **NOTE**: _Leaf nodes evaluated by code alone, non-leaf nodes evaluated based on children_
         - Condition node (leaf node)
             - Tests some property of game world
@@ -80,16 +80,16 @@ Finite state machines may be harder to scale due to lack of reusability of behav
             - Evaluates some or all children by query
             - Uses custom code to evaluate its return status
             - _In essence, any node that decides return status of a whole subtree in the BT_
+        - Decorator node
+            - Parent of a single child; modifies evaluation process of child <br> $\implies$ _Modifies child's return status or the process by which child returns status_
+            - Example: "until fail" - carry out child until failure <br> USE CASE: _Automated chopping of wood in Minecraft_
+            - _Most useful when applied to non-leaf nodes_
         - `BT.NodeEval.ND`: Non-deterministic (ND) evaluation
             - ND-selector node
             - ND-sequence node
     - `BT.NodeExec`: Node execution methods
         - Root traversal
         - Node schedular
-    - `BT.Decor`: Decorator node
-        - Parent of a single child; modifies evaluation process of child <br> $\implies$ _Modifies child's return status or the process by which child returns status_
-        - Example: "until fail" - carry out child until failure <br> USE CASE: _Automated chopping of wood in Minecraft_
-        - _Most useful when applied to non-leaf nodes_
 
 \* _The "some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised._
 
