@@ -32,7 +32,7 @@
             - State behaviour & transition handled as methods in class
     - `FSM.enhance`: Enhancements for FSM
         - Hierarchical FSM
-            - State class contain or may contain FSMs
+            - State class contains or may contain FSMs
             - _Facilitates implementation of higher & lower level decision-making_
         - Pushdown automata
             - Stack of recent states maintained (top = most recent)
