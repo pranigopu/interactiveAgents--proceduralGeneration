@@ -93,6 +93,12 @@ Finite state machines may be harder to scale due to lack of reusability of behav
         - Node schedular
     - `BT.extend`: Extensions of BT
         - Concurrent behaviours
+            - Parallel selector node
+            - Parallel sequence node
+            - PROBLEM: Limiting behaviours w.r.t. key conditions
+                - SOLUTION: Interruptor decorator
+            - PROBLEM: Contested resources between concurrent behaviours
+                - SOLUTION: Semaphore
         - Tree parameters (_i.e. store key information as parameters for the whole BT_)
         - Blackboard (_i.e. readable-writeable store of information shareable between BTs_)
         - Event-based trees (_how does it enable reactive behaviour?_)
