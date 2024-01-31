@@ -37,7 +37,7 @@
             - _Facilitates implementation of higher & lower level decision-making_
         - Pushdown automata
             - Stack of recent states maintained (top = most recent)
-            - Handle top state $\implies$ Handle most recent state
+            - Handle top state = Handle most recent state
             - Allows FSM with history (can go back to interrupted tasks)
         - Concurrent FSM
             - State tuple maintained s.t. each element = state of a separate FSM
