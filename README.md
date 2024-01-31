@@ -81,7 +81,7 @@ Finite state machines may be harder to scale due to lack of reusability of behav
             - Evaluates some or all children by query
             - Uses custom code to evaluate its return status
             - _In essence, any node that decides return status of a whole subtree in the BT_
-        - Decorator node
+        - Decorator node <br> _"Decorates" or "modifies" the processing of a single node_
             - Parent of a single child; modifies evaluation process of child <br> $\implies$ _Modifies child's return status or the process by which child returns status_
             - Example: "until fail" - carry out child until failure <br> USE CASE: _Automated chopping of wood in Minecraft_
             - _Most useful when applied to non-leaf nodes_
