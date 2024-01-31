@@ -1,7 +1,7 @@
 # Interactive agents & procedural generation
 
 ## Conceptual map
-- `*`: Basic concepts & overview
+- Overview
     - Agent
     - Behaviour (decision(s) agent makes)
     - AI tick (basic time unit by which AI behaves)
@@ -11,6 +11,7 @@
         - Utility systems
         - Planning
         - Machine learning (ML) approaches <br> _Such as reinforcement learning or neural networks_
+    - AI architecture principles
 
 ### Behaviour selection mechanisms
 - `FSM`: Finite state machine (FSM)
@@ -99,3 +100,17 @@ Finite state machines may be harder to scale due to lack of reusability of behav
 \* _The "some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised, i.e. non-deterministic_
 
 **NOTE: Why best catch "failures" in action nodes with conditions?**: <br> A failed action indicates that the agent knowledge of the world is insufficient, since it tried to do an illegal action. This indicates the need to test the properties of the game world further, thus the need to catch "failures" in action nodes with conditions.
+
+### AI architecture principles
+Consider and justify the following principles:
+
+1. Modular systems
+    - _How does it reduce redundancy & increase flexibility?_
+2. Hierarchical systems
+    - _How does it mprove scalability?_
+3. Persistent decisions
+    - _How does it improve AI's overall neffectiveness?_
+4. Shared knowledge
+    - _How does it improve computational efficiency?_
+5. AI in world (_i.e. imbuing game world objects with AI, not just agents_)
+    - _How does it reduce the cost of adding new content?_
