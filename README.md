@@ -93,7 +93,7 @@ Finite state machines may be harder to scale due to lack of reusability of behav
         - Node schedular
     - `BT.extend`: Extensions of BT
         - Concurrent behaviours
-        - Tree parameters
+        - Tree parameters (_i.e. store key information as parameters for the whole BT_)
         - Blackboard
         - Event-based trees (_how does it enable reactive behaviour?_)
 
