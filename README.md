@@ -1,17 +1,20 @@
 # Interactive agents & procedural generation
 
 ## Conceptual map
-- Overview
-    - Agent
-    - Behaviour (decision(s) agent makes)
-    - AI tick (basic time unit by which AI behaves)
-    - Behaviour selection mechanisms (determines agent behaviour)
-        - Finite state machine (FSM)
-        - Behaviour tree (BT)
-        - Utility systems
-        - Planning
-        - Machine learning (ML) approaches <br> _Such as reinforcement learning or neural networks_
-    - AI architecture principles
+### Overview
+- Agent
+- Behaviour (decision(s) agent makes)
+- AI tick (basic time unit by which AI behaves)
+- Behaviour selection mechanisms (determines agent behaviour)
+    - Finite state machine (FSM)
+    - Behaviour tree (BT)
+    - Utility systems
+    - Planning
+    - Machine learning (ML) approaches <br> _Such as reinforcement learning or neural networks_
+- AI architecture principles
+- Navigation
+    - Planned
+    - Reactive
 
 ### Behaviour selection mechanisms
 - `FSM`: Finite state machine (FSM)
