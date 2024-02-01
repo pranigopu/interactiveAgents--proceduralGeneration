@@ -149,3 +149,15 @@ Consider and justify the following principles:
                - Separation force
                - Cohesion force
                - Alignment force
+     - `React.CM`: Context maps
+          - Interest values & interest maps
+          - Danger values & danger maps
+          - Combined maps
+          - Subslot movement
+     - `React.VO`: Velocity obstacles <br> _... generalises "Collision avoidance" from_ `React.S.FBSM`
+          - Velocity obstacle (definition)
+          - Velocity space
+          - Multiple agents case
+          - Extensions
+               - Reciprocal velocity obstacle (RVO)
+               - Generalised RVO
