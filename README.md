@@ -183,7 +183,7 @@ Reactive navigation considers only immediate-to-short-term navigation. To achiev
 
 **CONSIDER**: _How can reactive navigation be used within planned navigation, i.e. pathfinding (especially once the path or the path space is found) to move and steer the agent as well as to smooth the path?_
 
-- `Nav.Plan.NDS`: Navgraph data structures <br> **NOTE**: _We not tackle how to implement a navgraph representation_
+- `Nav.Plan.NDS`: Navgraph data structures <br> **NOTE**: _We now tackle how to implement a navgraph representation_
      - Generalising navgraphs as graphs (recall the general concept of "graph" in computer science)
      - Potential data structures to implement & store graphs
           - Adjacency matrix
