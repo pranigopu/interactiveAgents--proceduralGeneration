@@ -197,4 +197,4 @@ Reactive navigation considers only immediate-to-short-term navigation. To achiev
           - Uninformed search (breadth-first, depth-first, Dijkstra's algorithm)
           - Informed search (greedy heuristic, A\*)
 
-**TERMINOLOGY NOTE**: Graph search methods that store and search the nodes at the edge of the region searched so far are called **agenda-based search** (agenda refers to the list of nodes to be explored) or **frontier search** (frontier refers to the unexplored region at the edge of the explored region).
+**TERMINOLOGY NOTE**: Graph search methods that store and search the nodes at the edge of the region searched so far are called **agenda-driven search** (agenda refers to the list of nodes to be explored) or **frontier search** (frontier refers to the unexplored region at the edge of the explored region).
