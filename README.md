@@ -9,17 +9,17 @@
     - `BSM.FSM`: Finite state machine (FSM)
     - `BSM.BT`: Behaviour tree (BT)
     - `BSM.US`: Utility systems
-    - `BSM.P`: Planning
+    - `BSM.Planning`: Planning
     - `BSM.ML`: Machine learning (ML) approaches (ex. reinforcement learning, neural networks)
 - AI architecture principles
-- Navigation <br> _... extends_ `BSM` (i.e. inherits from, expands but also goes beyond `BSM`)
-    - Planned
-    - Reactive
-        - Force-based steering
-        - Context maps
-        - Velocity obstacles
+- `Nav`: Navigation <br> _... extends, expands but also goes beyond_ `BSM` (i.e. inherits from, expands but also goes beyond `BSM`)
+    - `Nav.P`: Planned <br> _... extends_ `BSM.Planning`
+    - `Nav.R`: Reactive
+        - `Nav.S`: Steering (especially force-based steering)
+        - `Nav.CM`: Context maps
+        - `Nav.VO`: Velocity obstacles
 
-### Behaviour selection mechanisms
+### `BSM`: Behaviour selection mechanisms
 - `FSM`: Finite state machine (FSM)
     - `FSM.base`: Basics
         - Meaning of "finite state"
