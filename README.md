@@ -109,7 +109,7 @@ Finite state machines may be harder to scale due to lack of reusability of behav
         - Blackboard (_i.e. readable-writeable store of information shareable between BTs_)
         - Event-based tree (_how does it enable reactive behaviour?_)
 
-\* _The "some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised, i.e. non-deterministic_
+\* _"Some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised, i.e. non-deterministic._
 
 **NOTE: Why best catch "failures" in action nodes with conditions?**: <br> A failed action indicates that the agent knowledge of the world is insufficient, since it tried to do an illegal action. This indicates the need to test the properties of the game world further, thus the need to catch "failures" in action nodes with conditions.
 
