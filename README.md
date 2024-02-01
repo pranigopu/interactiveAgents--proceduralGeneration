@@ -2,22 +2,22 @@
 
 ## Conceptual map
 ### Overview
-- `A`: Agent
-     - `A.B`: Behaviour (decision(s) agent makes)
+- `Agent`: Agent
+     - `Agent.Behaviour`: Behaviour (decision(s) agent makes)
      - AI tick (basic time unit by which agent performs selects & performs behaviour)
-- `BSM`: Behaviour selection mechanisms (determines agent behaviour) <br> _... extends_ `A.B`
+- `BSM`: Behaviour selection mechanisms (determines agent behaviour) <br> _... extends_ `Agent.Behaviour`
     - `BSM.FSM`: Finite state machine (FSM)
     - `BSM.BT`: Behaviour tree (BT)
     - `BSM.US`: Utility systems
-    - `BSM.Planning`: Planning
+    - `BSM.P`: Planning
     - `BSM.ML`: Machine learning (ML) approaches (ex. reinforcement learning, neural networks)
 - AI architecture principles
 - `Nav`: Navigation <br> _... extends, expands but also goes beyond_ `BSM` (i.e. inherits from, expands but also goes beyond `BSM`)
-    - `Nav.P`: Planned <br> _... extends_ `BSM.Planning`
-    - `Nav.R`: Reactive
-        - `Nav.S`: Steering (especially force-based steering)
-        - `Nav.CM`: Context maps
-        - `Nav.VO`: Velocity obstacles
+    - `Nav.Plan`: Planned <br> _... extends_ `BSM.P`
+    - `Nav.React`: Reactive
+        - `Nav.React.S`: Steering (especially force-based steering)
+        - `Nav.React.CM`: Context maps
+        - `Nav.React.VO`: Velocity obstacles
 
 ### `BSM`: Behaviour selection mechanisms
 - `FSM`: Finite state machine (FSM)
@@ -126,3 +126,26 @@ Consider and justify the following principles:
     - _How does it improve computational efficiency?_
 5. AI in world (_i.e. imbuing game world objects with AI, not just agents_)
     - _How does it reduce the cost of adding new content?_
+
+### `Nav`: Navigation
+- `React`: Reactive navigation
+     - `React.S`: Steering (especially force-based steering)
+          - `React.S.base`: Defining local & global spaces
+          - `React.S.FBSM`: Force-based steering methods
+               - Seek target
+               - Flee from target
+               - Arrive
+               - Pursue & evade
+               - Wander
+               - Obstacle avoidance
+               - Collision avoidance
+               - Interpose
+               - Hide
+               - Path following
+               - Flow field following
+          - `React.S.F`: Flocking (combining force-based behaviours) <br> _... extends_ `React.S.FBSM` <br> **_We shall look into its concepts, not methods_**
+               - Weight blending
+               - Neighbourhood
+               - Separation force
+               - Cohesion force
+               - Alignment force
