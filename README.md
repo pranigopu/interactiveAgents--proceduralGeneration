@@ -143,7 +143,7 @@ Consider and justify the following principles:
                - Hide
                - Path following
                - Flow field following
-          - `React.S.F`: Flocking (combining force-based steering behaviours) <br> _... extends_ `React.S.FBSM` <br> **_We shall look into its concepts, not methods_**
+          - `React.S.F`: Flocking (combines force-based steering behaviours) <br> _... extends_ `React.S.FBSM` <br> **_We shall look into its concepts, not methods_**
                - Weight blending
                - Neighbourhood
                - Separation force
