@@ -13,11 +13,14 @@
     - `BSM.ML`: Machine learning (ML) approaches (ex. reinforcement learning, neural networks)
 - AI architecture principles
 - `Nav`: Navigation <br> _... extends, expands but also goes beyond_ `BSM` (i.e. inherits from, expands but also goes beyond `BSM`)
-    - `Nav.Plan`: Planned <br> _... extends_ `BSM.P`
-    - `Nav.React`: Reactive
-        - `Nav.React.S`: Steering (especially force-based steering)
-        - `Nav.React.CM`: Context maps
-        - `Nav.React.VO`: Velocity obstacles
+    - `Nav.React`: Reactive navigation
+          - `Nav.React.S`: Steering (especially force-based steering)
+          - `Nav.React.CM`: Context maps
+          - `Nav.React.VO`: Velocity obstacles
+     - `Nav.Plan`: Planned navigation, i.e. pathfinding <br> _... extends_ `BSM.P`
+          - `Nav.Plan.NR`: Navgraph (navigation graph) representations, i.e. pathfinding architectures
+          - `Nav.Plan.NDS`: Navgraph data structures
+          - `Nav.Plan.NSM`: Navgraph search methods
 
 ### `BSM`: Behaviour selection mechanisms
 - `FSM`: Finite state machine (FSM)
@@ -128,36 +131,70 @@ Consider and justify the following principles:
     - _How does it reduce the cost of adding new content?_
 
 ### `Nav`: Navigation
-- `React`: Reactive navigation
-     - `React.S`: Steering (especially force-based steering)
-          - `React.S.base`: Defining local & global spaces
-          - `React.S.FBSM`: Force-based steering methods
-               - Seek target
-               - Flee from target
-               - Arrive
-               - Pursue & evade
-               - Wander
-               - Obstacle avoidance
-               - Collision avoidance
-               - Interpose
-               - Hide
-               - Path following
-               - Flow field following
-          - `React.S.F`: Flocking (combines force-based steering behaviours) <br> _... extends_ `React.S.FBSM` <br> **_We shall look into its concepts, not methods_**
-               - Weight blending
-               - Neighbourhood
-               - Separation force
-               - Cohesion force
-               - Alignment force
-     - `React.CM`: Context maps
-          - Interest values & interest maps
-          - Danger values & danger maps
-          - Combined maps
-          - Subslot movement
-     - `React.VO`: Velocity obstacles <br> _... generalises "Collision avoidance" from_ `React.S.FBSM`
-          - Velocity obstacle (definition)
-          - Velocity space
-          - Multiple agents case
-          - Extensions
-               - Reciprocal velocity obstacle (RVO)
-               - Generalised RVO
+#### `Nav.React`: Reactive navigation
+- `Nav.React.S`: Steering (especially force-based steering)
+     - `Nav.React.S.base`: Defining local & global spaces
+     - `Nav.React.S.FBSM`: Force-based steering methods
+          - Seek target
+          - Flee from target
+          - Arrive
+          - Pursue & evade
+          - Wander
+          - Obstacle avoidance
+          - Collision avoidance
+          - Interpose
+          - Hide
+          - Path following
+          - Flow field following
+     - `Nav.React.S.F`: Flocking (combines force-based steering behaviours) <br> _... extends_ `React.S.FBSM` <br> **_We shall look into its concepts, not methods_**
+          - Weight blending
+          - Neighbourhood
+          - Separation force
+          - Cohesion force
+          - Alignment force
+- `Nav.React.CM`: Context maps
+     - Interest values & interest maps
+     - Danger values & danger maps
+     - Combined maps
+     - Subslot movement
+- `Nav.React.VO`: Velocity obstacles <br> _... generalises "Collision avoidance" from_ `React.S.FBSM`
+     - Velocity obstacle (definition)
+     - Velocity space
+     - Multiple agents case
+     - Extensions
+          - Reciprocal velocity obstacle (RVO)
+          - Generalised RVO
+
+#### `Nav.Plan`: Planned navigation, i.e. pathfinding
+Reactive navigation considers only immediate-to-short-term navigation. To achieve longer-term navigation, we use pathfinding.
+
+- `Nav.Plan.NR`: Navgraph representations, i.e. pathfinding architectures <br> **NOTE**: _The navgraph is an abstract representation of the actual environment_
+     - Types of representations
+          - Grid
+          - Waypoint
+          - Navigation mesh (nav mesh)
+     - Comparing representations
+          - CRITERION 1: Memory usage
+          - CRITERION 2: Cost of converting between environment & representation
+               - ASPECT 1: Localisation = For spatial position, find navgraph node
+               - ASPECT 2: Positioning = For navgraph node, find spatial position
+          - CRITERION 3: Cost of planning & smoothing valid paths
+          - CRITERION 4: Cost of dynamic modification, i.e. updating navgraph with change in environment
+
+**CONSIDER**: _How can reactive navigation be used within planned navigation, i.e. pathfinding (especially once the path or the path space is found) to move and steer the agent as well as to smooth the path?_
+
+- `Nav.Plan.NDS`: Navgraph data structures <br> **NOTE**: _We not tackle how to implement a navgraph representation_
+     - Generalising navgraphs as graphs (recall the general concept of "graph" in computer science)
+     - Potential data structures to implement & store graphs
+          - Adjacency matrix
+          - Adjacency list
+
+**CONSIDER**: _What are the merits and demerits of adjacency matrix and adjacency list, especially in comparison? What use-cases are best suited to each?_
+
+- `Nav.Plan.NSM`: Navgraph search methods, i.e. pathfinding methods
+     - Generalising pathfinding methods as graph search methods
+     - Potential graph search methods
+          - Uninformed search (breadth-first, depth-first, Dijkstra's algorithm)
+          - Informed search (greedy heuristic, A\*)
+
+**TERMINOLOGY NOTE**: Graph search methods that store and search the nodes at the edge of the region searched so far are called **agenda-based search** (agenda refers to the list of nodes to be explored) or **frontier search** (frontier refers to the unexplored region at the edge of the explored region).
