@@ -107,7 +107,7 @@ Finite state machines may be harder to scale due to lack of reusability of behav
                 - SOLUTION: Semaphore
         - Tree parameters (_i.e. store key information as parameters for the whole BT_)
         - Blackboard (_i.e. readable-writeable store of information shareable between BTs_)
-        - Event-based trees (_how does it enable reactive behaviour?_)
+        - Event-based tree (_how does it enable reactive behaviour?_)
 
 \* _The "some sequence" generalises any possible sequence; generally, it refers to a deterministic sequence, but it may also be randomised, i.e. non-deterministic_
 
