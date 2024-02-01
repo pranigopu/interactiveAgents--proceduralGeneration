@@ -2,19 +2,22 @@
 
 ## Conceptual map
 ### Overview
-- Agent
-- Behaviour (decision(s) agent makes)
-- AI tick (basic time unit by which AI behaves)
-- Behaviour selection mechanisms (determines agent behaviour)
-    - Finite state machine (FSM)
-    - Behaviour tree (BT)
-    - Utility systems
-    - Planning
-    - Machine learning (ML) approaches <br> _Such as reinforcement learning or neural networks_
+- `A`: Agent
+     - `A.B`: Behaviour (decision(s) agent makes)
+     - AI tick (basic time unit by which agent performs selects & performs behaviour)
+- `BSM`: Behaviour selection mechanisms (determines agent behaviour) <br> _... extends_ `A.B`
+    - `BSM.FSM`: Finite state machine (FSM)
+    - `BSM.BT`: Behaviour tree (BT)
+    - `BSM.US`: Utility systems
+    - `BSM.P`: Planning
+    - `BSM.ML`: Machine learning (ML) approaches (ex. reinforcement learning, neural networks)
 - AI architecture principles
-- Navigation
+- Navigation <br> _... extends_ `BSM` (i.e. inherits from, expands but also goes beyond `BSM`)
     - Planned
     - Reactive
+        - Force-based steering
+        - Context maps
+        - Velocity obstacles
 
 ### Behaviour selection mechanisms
 - `FSM`: Finite state machine (FSM)
