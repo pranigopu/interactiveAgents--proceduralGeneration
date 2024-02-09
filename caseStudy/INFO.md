@@ -106,7 +106,7 @@ Introduce the game(s) and the specific AI system(s) the case study discusses.
     - Placement/context of AI within the game design (15 marks)
     - Context of AI within Industry (15 marks)
     - Reflection (10 marks)
-    - Overall Presentation (Clarity, language, layout, overall coherence) (15 marks)
+    - Overall Presentation (clarity, language, layout, overall coherence) (15 marks)
     - Quality of references (5 marks)
 
 ## Pre-submission checks
