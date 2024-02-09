@@ -14,7 +14,7 @@ _See_ [INFO.md]([caseStudy/INFO.md](https://github.com/pranigopu/interactiveAgen
 The case study should be based on appropriate sources, ex. papers, blog posts or videos that describe the AI systems, and referenced appropriately. You use the following section structure.
 
 #### Introduction
-Introduce the game(s) and the specific AI system(s) the case study discusses.
+- Introduce the game(s) and the specific AI system(s) the case study discusses.
 
 #### The Game
 - Describe the role of the AI systems within the game or games' overall design.
