@@ -24,7 +24,7 @@ The case study should be based on appropriate sources, ex. papers, blog posts or
 Introduce the game(s) and the specific AI system(s) the case study discusses.
 
 ### The Game
-- Describe the role of the AI systems within the game or games’ overall design.
+- Describe the role of the AI systems within the game or games' overall design.
 - What requirements did this design place on these AI system(s)?
 - Mention any specific constraints or challenges (hardware, development, etc).
 
