@@ -3,11 +3,11 @@
 _See_ [INFO.md]([caseStudy/INFO.md](https://github.com/pranigopu/interactiveAgentsAndProceduralGeneration/blob/f8fb0ddc1e93b84168fbbf3ee865a66365d18489/caseStudy/INFO.md)) _for general assignment information (including the list of other topics and their references)._
 
 ## References on Unexplored (Ludomotion 2012) and Unexplored 2 (Ludomotion 2022)
-- Joris Dormans, Cyclic Dungeon Generation, Everything Procedural Conference (EPC), 2016.
-- Joris Dormans, Cyclic Generation in Short & Adams (eds), Procedural Generation in Game Design, CRC, 2017.
-- Tommy Thompson, Unexplored's Secret: Cyclic Dungeon Generation, Game Developer, 2021.
-- Adam Newgas (AKA Boris the Brave), Dungeon Generation in Unexplored, BorisTheBrave.Com, 2021.
-- Tommy Thompson, How Unexplored 2 Generates Entire Fantasy Worlds from Scratch, YouTube 2023.
+- Joris Dormans, [Cyclic Dungeon Generation](https://www.youtube.com/watch?v=mA6PacEZX9M), Everything Procedural Conference (EPC), 2016.
+- Joris Dormans, [Cyclic Generation in Short & Adams (eds)](https://qmplus.qmul.ac.uk/mod/resource/view.php?id=1881373), Procedural Generation in Game Design, CRC, 2017.
+- Tommy Thompson, [Unexplored's Secret: Cyclic Dungeon Generation](https://www.gamedeveloper.com/disciplines/unexplored-s-secret-cyclic-dungeon-generation-), Game Developer, 2021.
+- Adam Newgas (AKA Boris the Brave), [Dungeon Generation in Unexplored](https://www.boristhebrave.com/2021/04/10/dungeon-generation-in-unexplored/), BorisTheBrave.Com, 2021.
+- Tommy Thompson, [How Unexplored 2 Generates Entire Fantasy Worlds from Scratch](https://www.youtube.com/watch?v=lL6A_MC1E2Y), YouTube 2023.
 
 ---
 
