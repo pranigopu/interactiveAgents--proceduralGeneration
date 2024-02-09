@@ -1,4 +1,4 @@
-ECS7016P Interactive Agents and Procedural Generation <br> Coursework: Industry Case Study
+# ECS7016P Interactive Agents and Procedural Generation <br> Coursework: Industry Case Study
 
 
 Deadline: 11am Friday 22nd March 2024
