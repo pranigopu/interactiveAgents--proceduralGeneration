@@ -1,6 +1,6 @@
 # Procedural Generation in Unexplored
 
-_Note that this was a topic chosen among possible selections. See_ [INFO.md]([caseStudy/INFO.md](https://github.com/pranigopu/interactiveAgentsAndProceduralGeneration/blob/f8fb0ddc1e93b84168fbbf3ee865a66365d18489/caseStudy/INFO.md)) _for more general assignment-related information._
+_This was a topic chosen among possible selections. See_ [INFO.md]([caseStudy/INFO.md](https://github.com/pranigopu/interactiveAgentsAndProceduralGeneration/blob/f8fb0ddc1e93b84168fbbf3ee865a66365d18489/caseStudy/INFO.md)) _for more general assignment-related information._
 
 ## References on Unexplored (Ludomotion 2012) and Unexplored 2 (Ludomotion 2022)
 - Joris Dormans, Cyclic Dungeon Generation, Everything Procedural Conference (EPC), 2016.
