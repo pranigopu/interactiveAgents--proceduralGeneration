@@ -74,7 +74,7 @@ _I have included references for all topics, not just my chosen topic._
 The case study should be based on appropriate sources, ex. papers, blog posts or videos that describe the AI systems, and referenced appropriately. You use the following section structure.
 
 ### Introduction
-Introduce the game(s) and the specific AI system(s) the case study discusses.
+- Introduce the game(s) and the specific AI system(s) the case study discusses.
 
 ### The Game
 - Describe the role of the AI systems within the game or games' overall design.
@@ -95,7 +95,7 @@ Introduce the game(s) and the specific AI system(s) the case study discusses.
     - How do they compare with other games?
     - What do you think could be improved upon?
 
-### References
+### Providing references
 - A list of references used (those provided in the topic description and any others used). <br> **NOTE**: These should follow a recognised format: <br> https://qmplus.qmul.ac.uk/mod/book/view.php?id=653429&chapterid=66172 <br> This link is to a QMUL book on literacy skills that may be useful!
 
 ## Marking criteria
