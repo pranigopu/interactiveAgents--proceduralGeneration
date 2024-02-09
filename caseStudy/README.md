@@ -9,6 +9,8 @@ _See_ [INFO.md]([caseStudy/INFO.md](https://github.com/pranigopu/interactiveAgen
 - Adam Newgas (AKA Boris the Brave), Dungeon Generation in Unexplored, BorisTheBrave.Com, 2021.
 - Tommy Thompson, How Unexplored 2 Generates Entire Fantasy Worlds from Scratch, YouTube 2023.
 
+---
+
 ## Relevant ssignment-related details
 ### Case Study Content and Format
 The case study should be based on appropriate sources, ex. papers, blog posts or videos that describe the AI systems, and referenced appropriately. You use the following section structure.
