@@ -43,7 +43,7 @@ Introduce the game(s) and the specific AI system(s) the case study discusses.
     - What do you think could be improved upon?
 
 ### References
-- A list of references used (those provided in the topic description and any others used). These should follow a recognised format: <br> https://qmplus.qmul.ac.uk/mod/book/view.php?id=653429&chapterid=66172 <br> **NOTE**: This link is to a QMUL book on literacy skills that may be useful!
+- A list of references used (those provided in the topic description and any others used). <br> **NOTE**: These should follow a recognised format: <br> https://qmplus.qmul.ac.uk/mod/book/view.php?id=653429&chapterid=66172 <br> This link is to a QMUL book on literacy skills that may be useful!
 
 ## Marking criteria
 - Diagrams are not included in the word limit.
