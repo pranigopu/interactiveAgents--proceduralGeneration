@@ -1,7 +1,7 @@
 # Industry Case Study
 
-**Deadline**: 11am Friday 22nd March 2024
-**Weight**: 40% module
+- **Deadline**: 11am Friday 22nd March 2024
+- **Weight**: 40% module
 
 This is an individual written coursework that requires you to submit a case study report of 2000 to 3000 words.
 
