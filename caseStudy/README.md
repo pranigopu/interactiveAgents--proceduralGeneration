@@ -6,16 +6,69 @@
 This is an individual written coursework that requires you to submit a case study report of 2000 to 3000 words.
 
 ## Case Study Topic Selection
-Your topic will relate to the AI systems of a game, or a pair of games, i.e. the interactive agents and/or procedural content generators developed as part of the game(s). The aim of the case study is to gain a better understanding of how AI systems are used in industry by studying a particular example in depth.
+The topic relates to the AI systems of a game, or a pair of games, i.e. the interactive agents and/or procedural content generators developed as part of the game(s). The aim of the case study is to gain a better understanding of how AI systems are used in industry by studying a particular example in depth. The available topics are:
 
-A list of case study topics will be published on QMPlus. Topics can initially be selected via a "select a case study topic" activity on QMPlus. Topic selection opens 5pm January 31st.
+- Topics in Interactive Agents
+    - AI Companions in Bioshock Infinite and The Last of Us
+    - The NPC AI of Horizon Zero Dawn
+    - AI Directors in Left 4 Dead and Alien: Isolation
+- Topics in Procedural Content Generation
+    - Procedural Generation in Caves of Qud
+    - Procedural Generation in Unexplored
+    - Procedural Generation in No Man's Sky
 
-- Each topic will be restricted to a limited number of students.
-- Topic selection will be allocated on a first-come first-serve basis.
-- Students who do not select a topic will be allocated one.
-- A full list of topic allocations will then be published, based on those selections.
+**MY CHOSEN TOPIC**: Procedural Generation in Unexplored
 
-The module organiser has final say on allocated topics. Submitting a report on a topic that you were not allocated will receive a ZERO mark.
+## References for Each Topic
+_I have included references for all topics, not just my chosen topic._
+
+### Topic: AI Companions in Bioshock Infinite and The Last of Us
+- Bioshock Infinite (Irrational Games 2013)
+    - John Abercrombie, Bringing BioShock Infinite's Elizabeth to Life: An AI Development Postmortem, GDC AI Summit, 2014.
+    - Shawn Robertson,  Creating BioShock Infinite's Elizabeth, GDC, 2014.
+    - Tommy Thompson, The AI of Bioshock Infinite's Elizabeth, AI and Games YouTube channel, 2017.
+- The Last of Us (Naughty Dog 2013)
+    - Max Dyckhoff, Ellie: Buddy AI in The Last of Us, GDC, 2014.
+    - Max Dyckhoff, Ellie: Buddy AI in The Last of Us, Game AI Pro 2, 2015.
+
+### Topic: The NPC AI of Horizon Zero Dawn
+- Horizon Zero Dawn (Guerrilla Games 2017)
+    - Arjen Beij, The AI of Horizon Zero Dawn, Game AI North, 2017.
+    - Wouter Josemans, Putting AI Back Into the Air, Game AI North, 2017.
+    - Julian Berteling, Beyond Killzone: Creating New AI Systems for Horizon Zero Dawn, GDC, 2018. (slides)
+    - Tommy Thompson, Behind The AI of Horizon Zero Dawn (Part 1), Game Developer, 2019.
+
+### Topic: AI Directors in Left 4 Dead and Alien: Isolation
+- Left 4 Dead (Valve 2008)
+    - Michael Booth, The AI Systems of Left 4 Dead, Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), 2009.
+    - Michael Booth, Replayable Cooperative Game Design: Left 4 Dead, GDC, 2009.  (Slides)
+    - Tommy Thompson, In the Directors Chair: The AI of Left 4 Dead, Medium, 2014.
+- Alien: Isolation (Creative Assembly 2014)
+    - Tommy Thompson, Revisiting the AI of Alien: Isolation, Game Developer, 2020.
+
+### Topic: Procedural Generation in Caves of Qud
+- Caves of Qud (Freehold Games 2015)
+    - Jason Grinbalt, Markov by Candlelight, International, Roguelike Developer Conference, 2016.
+    - Jason Grinbalt, Procedural History in Caves of Qud, Roguelike Celebration, 2017.
+    - Jason Grinbalt, Procedurally Generating History in Caves of Qud, GDC Independent Games Summit, 2018.
+    - Brian Bucklew, Tile-Based Map Generation using Wave Function Collapse in Caves of Qud, GDC 2019.
+    - Brian Bucklew & Jason Grinbalt, End-to-End Procedural Generation in Caves of Qud, GDC 2019.
+    - Brian Bucklew, Dungeon Generation via Wave Function Collapse, GDC 2019.
+
+### Topic: Procedural Generation in Unexplored
+- Unexplored (Ludomotion 2012) and Unexplored 2 (Ludomotion 2022)
+    - Joris Dormans, Cyclic Dungeon Generation, Everything Procedural Conference (EPC), 2016.
+    - Joris Dormans, Cyclic Generation in Short & Adams (eds), Procedural Generation in Game Design, CRC, 2017.
+    - Tommy Thompson, Unexplored's Secret: Cyclic Dungeon Generation, Game Developer, 2021.
+    - Adam Newgas (AKA Boris the Brave), Dungeon Generation in Unexplored, BorisTheBrave.Com, 2021.
+    - Tommy Thompson, How Unexplored 2 Generates Entire Fantasy Worlds from Scratch, YouTube 2023.
+
+### Topic: Procedural Generation in No Man's Sky
+- No Man's Sky (Hello Games 2016)
+    - Innes McKendrick, Build a Galaxy: Procedural Generation in No Man's Sky, Nucl.ai, 2015.
+    - Grant Duncan, How I Learned to Stop Worrying and Love Procedural Art, GDC, 2015.
+    - Sean Murray, Building Worlds Using Math(s), GDC, 2017.
+    - Innes McKendrick, Moving Parts: Problem Solving for Updatable Procedural Generation, GDC AI Summit, 2018.
 
 ## Case Study Content and Format
 The case study should be based on appropriate sources, ex. papers, blog posts or videos that describe the AI systems, and referenced appropriately. You use the following section structure.
