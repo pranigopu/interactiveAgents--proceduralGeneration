@@ -66,7 +66,7 @@ PCG is the use of computational methods to author content.
 ---
 
 ### `SM`: Search-based methods
-- Core components of search-based methods
+- `SM.base`: Core components of search-based methods
     - Engine (algorithm used)
     - Content representation
         - Directness <br> _Spectrum from direct (ex. bitwise representation) to indirect (ex. pRNG seed)_
@@ -82,7 +82,7 @@ PCG is the use of computational methods to author content.
         - Simulation-based evaluation <br> _One or more programmed agents play & assess_
             - Agents can be (1) static (maintains behaviour) or (2) dynamic (adapts during play)
         - Interactive (human-in-the-loop) evaluation <br> _Content generation influenced by human playing & giving feedback_
-- Evolutionary methods
+- `CM.EM`: Evolutionary methods
     - Content representation
         - Genotype (solutions in the generation space) <br> _Machine-readable representation that abstracts a phenotype_
         - Phenotype (the actual entities being evolved; outward appearance)
