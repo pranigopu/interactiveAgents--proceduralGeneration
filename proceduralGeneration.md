@@ -32,6 +32,12 @@ PCG is the use of computational methods to author content.
         - `CM.N.GR`: Gradient-based random terrain
         - `CM.N.F`: Fractal terrain <br> _Simulates self-similarity as often found in nature_
             - Midpoint displacement (ex. diamond-square method)
+    - `CM.G`: Grammar <br> _A set of production rules for rewriting strings_
+        - `CM.G.prelim`: Preliminary ideas
+            - Terminal vs. non-terminal symbols
+            - By convention, uppercase $\implies$ non-terminal, lowercase $\implies$ terminal
+            - By convention, production rules are read as replacement of of LHS by RHS
+        - `CM.G.`
          
 **NOTE**: `CM.N.IR` and `CM.N.GR` are done with respect to points on a lattice. A lattice refers to the initial random matrix representing discrete (well-spaced or equi-spaced) points on the terrain between which interpolation or gradient is done.
 
@@ -39,7 +45,12 @@ PCG is the use of computational methods to author content.
     - Core components of search-based methods
         - Engine (algorithm used)
         - Content representation
-            - Spectrum from direct (ex. bitwise representation) to indirect (ex. pRNG seed)
+            - Directness <br> _Spectrum from direct (ex. bitwise representation) to indirect (ex. pRNG seed)_
+            - Implications of representation
+                - Seach speed
+                - Generation space
+                - Appearance
+                - Game features
         - Evaluation function(s) (an approach may involve one or more)
             - Direct evaluation (feature-based)
                 - Theory-driven (based on a theoretical framework, ex. utility, enjoyment, etc.)
@@ -54,5 +65,38 @@ PCG is the use of computational methods to author content.
         - Content generation (i.e. creating individuals of the population to evaluate)
             - Locality vs. expressivity tradeoff
                 - Locality $\implies$ Similarity in phenotypes given similarity in genotypes
- 
-**CONSIDER**: _What makes a good evaluation function, i.e. how would you assess the quality of the content?_
+                - Expressivity $\implies$ Range of outcomes the system can produce (i.e. potential diversity)
+        - Extending evolutionary search
+            - Neuroevolution of artificial neural network topologies
+                - Initial population of ANNs or CPPNs (see below) with no hidden nodes
+                - New nodes added through mutation
+            - Procedural procedural level generator generator <br> _Evolve whole generators of levels rather than levels_
+            - Novelty search <br> _Evolution without objective function; objective function replaced by novelty promotion_
+            - Quality diversity algorithms <br> _... extends novelty search_
+                - **Motivation**: Neither random sampling nor maximising fitness are effective in large search spaces
+                - **Goal**: Find _fitness potential_ of each _region_ of the feature/solution space
+                - **Outcome**: Produces a set of fit solutions, i.e. produces fit population
+                    - Searches for diverse solution while maximising solution quality
+                - _How to achieve diversity/divergence?_
+                    - Behaviour space distance
+                    - Behaviour space partitioning
+                - _How to achieve solution quality?_
+                    - Local competition (individuals in the same niche, i.e. similar individuals compete)
+                    - Constraint satisfaction (to maintain feasibility)
+
+**CONSIDER**:
+
+- _What makes a good evaluation function, i.e. how would you assess the quality of the content?_
+- _Can novelty search improve problem-solving in certain domains?_
+
+**NOTE: Locality & directness**: <br> Locality in content generation tends to correlate with directness of content representation.
+
+**NOTE: Single vs. multi-objective**: <br> For a domain with multiple evaluation functions, how should they be combined? Should they be combined to form a single objective function, or is a multi-objective approach needed? (CHECK: NSGA-11, a multi-objective algorithm)
+
+**FURTHER CONCEPTS TO EXPLORE**:
+
+- Compositional pattern producing network (CPPN)
+    - Uses different activation functions for different nodes (unlike classic ANNs)
+    - Used as a pattern generator
+
+---
