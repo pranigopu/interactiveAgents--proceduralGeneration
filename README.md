@@ -37,10 +37,10 @@ Click [here](https://github.com/pranigopu/interactiveAgents-proceduralGeneration
 
 - 3 categories of PCG with respect to method:
     - `CM`: Constructive methods <br> _Rule-based PCG without evaluation of generated content_
-        - `CM.CA`: Cellular automata <br> _Computational paradigm based on local interactions (in 1 or more dimensions)_
-        - `CM.SP`: Space partitioning <br> _Use of a tree to partition the space w.r.t. certain rules or an algorithm_
-        - `CM.A`: Agent <br> _A single agent is used for PCG; appearance is based on agent behaviour in an unformed/empty space_
-        - `CM.NF` Noise or fractals for terrain generation <br> _Use of recursivity or pseudorandom number generation for PCG_
+        - `CM.CA`: Cellular automata
+        - `CM.SP`: Space partitioning
+        - `CM.A`: Agent
+        - `CM.NF` Noise or fractals for terrain generation
         - `CM.G`: Grammar
     - `SM`: Search-based methods
         - `SM.EM`: Evolutionary methods
