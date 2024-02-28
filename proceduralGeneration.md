@@ -148,7 +148,10 @@ PCG is the use of computational methods to author content.
     - `SM.DG.WFC`: Wave function collapse
         - Generates bitmaps based on at least one reference/input bitmap
 
-**CONSIDER**: _WFC as constraint satisfaction._
+**CONSIDER**:
+
+- _Similarities & differences between evolutionary search & declarative programming_
+- _WFC as constraint satisfaction_
 
 **ADDITIONAL TOPICS TO EXPLORE**:
 
