@@ -1,6 +1,19 @@
 # Interactive agents & procedural generation
 
 ## Conceptual map
+### AI architecture principles
+Consider and justify the following principles:
+
+1. Modular systems
+    - _How does it reduce redundancy & increase flexibility?_
+2. Hierarchical systems
+    - _How does it mprove scalability?_
+3. Persistent decisions
+    - _How does it improve AI's overall neffectiveness?_
+4. Shared knowledge
+    - _How does it improve computational efficiency?_
+5. AI in world (_i.e. imbuing game world objects with AI, not just agents_)
+    - _How does it reduce the cost of adding new content?_
 ### Overview
 #### Interactive agents
 Click [here](https://github.com/pranigopu/interactiveAgents-proceduralGeneration/blob/32a11a1bace43c5e44ef2022bf4e905fd12b4713/interactiveAgents.md) for further notes on interactive agents.
