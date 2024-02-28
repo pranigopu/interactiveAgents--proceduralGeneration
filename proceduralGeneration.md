@@ -41,7 +41,7 @@ PCG is the use of computational methods to author content.
         - Production rules (set of all rules for rewriting strings)
         - Initial state (starting axiom or initiator from which generation is done)
             - _Not essential to grammars as such, only to grammar-based PCG_
-    - `CM.G.broadCats`: Broad categories of grammars
+    - `CM.G.bCats`: Broad categories of grammars
         - Deterministic (1 rule per symbol or symbol sequence)
         - Non-deterministic (several rules may apply per symbol or symbol sequence)
             - Random pick of rule
@@ -63,10 +63,6 @@ PCG is the use of computational methods to author content.
     - Not NP-hard
     - Adaptable
     - Fast w.r.t. gameplay
-
-- `CM.DG`: Declarative generators
-
-
 ---
 
 ### `SM`: Search-based methods
@@ -102,7 +98,7 @@ PCG is the use of computational methods to author content.
         - Novelty search <br> _Evolution without objective function; objective function replaced by novelty promotion_
         - Quality diversity algorithms <br> _... extends novelty search_
             - **Motivation**: Neither random sampling nor maximising fitness are effective in large search spaces
-            - **Goal**: Find _fitness potential_ of each _region_ of the feature/solution space
+            - **Objective**: Find _fitness potential_ of each _region_ of the feature/solution space
             - **Outcome**: Produces a set of fit solutions, i.e. produces fit population
                 - Searches for diverse solution while maximising solution quality
             - _How to achieve diversity/divergence?_
@@ -126,5 +122,36 @@ PCG is the use of computational methods to author content.
 - Compositional pattern producing network (CPPN)
     - Uses different activation functions for different nodes (unlike classic ANNs)
     - Used as a pattern generator
+
+- `SM.DG`: Declarative generators
+    - **Motivation**: Provide a richer description of desired outcome rather than a simple evaluative value(s)
+    - `SM.DG.prelim`: Preliminary concepts
+        - Imperative programming <br> _Describe computation method, evaluate result_
+            - Program $\rightarrow$ Execution $\rightarrow$ Result
+        - Declarative programming <br> _Describe result, evaluate computation method_
+            - Program $\rightarrow$ Solver $\rightarrow$ Result
+    - `SM.DG.CP`: Constraint programming <br> _Make choices under certain restrictions_ <br> Choices = Variables <br> Restrictions = Constraints on variables
+        - Constraint satisfaction problem (CSP)
+            - CSP is declarative program
+            - Obtain CSP solver to find solution
+            - Solution = Assignment of variables without constaint violation
+        - Constraint propagation
+            - **Motivation**: Naive assignment is intractable
+            - Represent CSP as graph
+                - Nodes = Variables
+                - Edges = Shared constraints
+            - Approach
+                - Repeatedly make choices for node
+                - Propagate implications across graph
+                    - Restrict domain for each neighbour node
+                    - Repeatedly make choices for each neighbour node
+    - `SM.DG.WFC`: Wave function collapse
+        - Generates bitmaps based on at least one reference/input bitmap
+
+**CONSIDER**: _WFC as constraint satisfaction._
+
+**ADDITIONAL TOPICS TO EXPLORE**:
+
+- Using solver (for WFC) with different heuristics to help make tie-breaking decisions
 
 ---
