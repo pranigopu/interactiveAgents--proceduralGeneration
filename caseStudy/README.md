@@ -12,7 +12,7 @@ _See_ [INFO.md](https://github.com/pranigopu/interactiveAgentsAndProceduralGener
 ---
 
 ## Relevant assignment-related details
-### Case Study Content and Format
+### Case study content and format
 The case study should be based on appropriate sources, ex. papers, blog posts or videos that describe the AI systems, and referenced appropriately. You use the following section structure.
 
 #### Introduction
