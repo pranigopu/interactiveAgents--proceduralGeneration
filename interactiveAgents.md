@@ -132,12 +132,13 @@ Finite state machines may be harder to scale due to lack of reusability of behav
           - Hide
           - Path following
           - Flow field following
-     - `Nav.React.S.F`: Flocking (combines force-based steering behaviours) <br> _... extends_ `React.S.FBSM` <br> **_We shall look into its concepts, not methods_**
+     - `Nav.React.S.F`: Combining force-based steering behaviours <br> _... extends_ `React.S.FBSM`
           - Weight blending
           - Neighbourhood
-          - Separation force
-          - Cohesion force
-          - Alignment force
+               - Separation
+               - Cohesion
+               - Alignment
+               - Combining the above for multiple agents $\rightarrow$ Flocking
 - `Nav.React.CM`: Context maps
      - Interest values & interest maps
      - Danger values & danger maps
