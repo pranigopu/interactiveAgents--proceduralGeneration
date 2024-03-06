@@ -80,7 +80,7 @@ Finite state machines may be harder to scale due to lack of reusability of behav
             - Evaluates each child in some sequence\*
             - Returns status of first child returning "success" or "running"
             - Returns "failure" if all children return "failure" <br> $\implies$ _"failure" only if whole sequence of children returns "failure"_
-            - Tries to **_select_** a child in some order
+            - Tries to **_select_** a child by searching children in some order
         - Sequence node (non-leaf node)
             - Evaluates each child in some sequence\*
             - Returns status of first child returning "failure" or "running"
