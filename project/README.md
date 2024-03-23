@@ -9,4 +9,4 @@ Allocated scenario: Undersea explorers
 - Agent A: Diver
 - Agent B: Mermaid
 
-**NOTE**: Your scenario should guide you in the design of the level environments and the two types of agent. Submissions which ignore the specified scenario will be heavily penalised. You are free to innovate within this scenario, e.g. decide how particular agents should behave and interact with each other and objects. You will not be penalised for including additional design elements, e.g. different tile types, objects in the environment, a third kind of agent.
+**NOTE**: Your scenario should guide you in the design of the level environments and the two types of agent. You are free to innovate within this scenario, e.g. decide how particular agents should behave and interact with each other and objects. You will not be penalised for including additional design elements, e.g. different tile types, objects in the environment, a third kind of agent.
