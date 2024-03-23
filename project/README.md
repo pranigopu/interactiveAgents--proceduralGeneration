@@ -5,7 +5,7 @@ For submission instructions, read: [INFO](https://github.com/pranigopu/interacti
 ## Information
 Allocated scenario: Undersea explorers
 
-- Environment: A Undersea Reef
+- Environment: An Undersea Reef
 - Agent A: Diver
 - Agent B: Mermaid
 
