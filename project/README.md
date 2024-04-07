@@ -4,6 +4,12 @@ For submission instructions, read: [INFO](https://github.com/pranigopu/interacti
 
 For GitHub notes (to use for project), read: [GitNotes](https://github.com/pranigopu/interactiveAgents-proceduralGeneration/blob/a9df2711120c586f8a51b609463beb4867326083/project/GitNotes.pdf)
 
+---
+
+**Project repository**: https://github.com/pranigopu/underseaExplorers
+
+---
+
 ## Information
 Allocated scenario: Undersea explorers
 
