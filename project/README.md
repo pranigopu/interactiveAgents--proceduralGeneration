@@ -1,8 +1,8 @@
 # Project (Unity)
 
-For submission instructions, read: [INFO](https://github.com/pranigopu/interactiveAgents-proceduralGeneration/blob/ca3e4aa247c7a30dbdcffb13528ca7225d9e7da4/project/INFO.pdf)
+For submission instructions, read: [INFO](https://github.com/pranigopu/interactiveAgents--proceduralGeneration/blob/354aa0270e4b0c0ebb2a830d9589058d9868d645/project/INFO.pdf)
 
-For GitHub notes (to use for project), read: [GitNotes](https://github.com/pranigopu/diver-vs-mermaid)
+For GitHub notes (to use for project), read: [GitNotes](https://github.com/pranigopu/interactiveAgents--proceduralGeneration/blob/354aa0270e4b0c0ebb2a830d9589058d9868d645/project/GitNotes.pdf)
 
 ---
 
