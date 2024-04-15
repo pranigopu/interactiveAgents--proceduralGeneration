@@ -6,7 +6,7 @@ For GitHub notes (to use for project), read: [GitNotes](https://github.com/prani
 
 ---
 
-**Project repository**: https://github.com/pranigopu/underseaExplorers
+**Project repository**: https://github.com/pranigopu/diver-vs-mermaid
 
 ---
 
