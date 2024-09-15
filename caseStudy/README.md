@@ -2,7 +2,7 @@
 
 _See_ [INFO.md](https://github.com/pranigopu/interactiveAgentsAndProceduralGeneration/blob/f8fb0ddc1e93b84168fbbf3ee865a66365d18489/caseStudy/INFO.md) _for general assignment information (including the list of other topics and their references)._
 
-_See_ [SUMBISSION.pdf](https://github.com/pranigopu/interactiveAgents--proceduralGeneration/blob/main/caseStudy/SUBMISSION.pdf) _for the completed case study._
+_See_ [SUBMISSION.pdf](https://github.com/pranigopu/interactiveAgents--proceduralGeneration/blob/main/caseStudy/SUBMISSION.pdf) _for the completed case study._
 
 ## References on Unexplored (Ludomotion 2012) and Unexplored 2 (Ludomotion 2022)
 - Joris Dormans, [Cyclic Dungeon Generation](https://www.youtube.com/watch?v=mA6PacEZX9M), Everything Procedural Conference (EPC), 2016.
