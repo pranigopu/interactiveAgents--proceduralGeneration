@@ -4,7 +4,9 @@ _See_ [INFO.md](https://github.com/pranigopu/interactiveAgentsAndProceduralGener
 
 _See_ [SUBMISSION.pdf](https://github.com/pranigopu/interactiveAgents--proceduralGeneration/blob/main/caseStudy/SUBMISSION.pdf) _for the completed case study._
 
-**NOTE**: _The submission file is mostly the same as the one submitted for the assignment, but with a few editing changes that have no effect on the content._
+---
+
+**NOTE**: The submission file has been edited post-submission (without changing the content) at the subheading "3. Cyclic generation".
 
 ## References on Unexplored (Ludomotion 2012) and Unexplored 2 (Ludomotion 2022)
 - Joris Dormans, [Cyclic Dungeon Generation](https://www.youtube.com/watch?v=mA6PacEZX9M), Everything Procedural Conference (EPC), 2016.
