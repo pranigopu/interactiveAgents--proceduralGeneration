@@ -21,7 +21,7 @@ _See_ [SUBMISSION.pdf](https://github.com/pranigopu/interactiveAgents--procedura
 
 ## Relevant assignment-related details
 ### Case study content and format
-The case study should be based on appropriate sources, ex. papers, blog posts or videos that describe the AI systems, and referenced appropriately. You use the following section structure.
+The case study should be based on appropriate sources, e.g. papers, blog posts or videos that describe the AI systems, and referenced appropriately. You use the following section structure.
 
 #### Introduction
 - Introduce the game(s) and the specific AI system(s) the case study discusses.
