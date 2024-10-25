@@ -9,7 +9,7 @@ Consider and justify the following principles:
 2. Hierarchical systems
     - _How does it mprove scalability?_
 3. Persistent decisions
-    - _How does it improve AI's overall neffectiveness?_
+    - _How does it improve AI's overall effectiveness?_
 4. Shared knowledge
     - _How does it improve computational efficiency?_
 5. AI in world (_i.e. imbuing game world objects with AI, not just agents_)
